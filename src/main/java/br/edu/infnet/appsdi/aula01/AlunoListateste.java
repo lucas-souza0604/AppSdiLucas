@@ -3,7 +3,7 @@ package br.edu.infnet.appsdi.aula01;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Teste {
+public class AlunoListateste {
 	
 	public static void main(String[] args) {
 		
@@ -14,7 +14,7 @@ public class Teste {
 		
 		for (int i = 0; i < nomes.length; i++) {
 			Aluno aluno = new Aluno();
-			aluno.setId(i);
+			aluno.setId(i+1);
 			aluno.setNome(nomes[i]);
 			aluno.setEmail(emails[i]);
 			
