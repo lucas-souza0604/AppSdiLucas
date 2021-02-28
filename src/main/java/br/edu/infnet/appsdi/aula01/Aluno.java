@@ -20,6 +20,11 @@ public class Aluno {
 		this.id = id;
 	}
 	
+	@Override
+	public String toString() {
+		return this.id + " - " + this.nome + " - " + this.email;
+	}
+	
 	
 	public int getId() {
 		return id;
